@@ -12,6 +12,6 @@ The extension requests permissions solely for the purpose of providing its core 
 
 ## Contact
 
-If you have any questions or concerns regarding the privacy policy of the Salat Time Reminder extension, please contact us at [your.email@example.com](mailto:your.email@example.com).
+If you have any questions or concerns regarding the privacy policy of the Salat Time Reminder extension, please contact us at [shafi.cse.buet@google.com](mailto:shafi.cse.buet@google.com).
 
-*This privacy policy is subject to change without notice. Last updated: January 28, 2024.*
+*This privacy policy is subject to change without notice. Last updated: January 29, 2024.*
