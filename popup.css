@@ -1,0 +1,88 @@
+body {
+    width: 200px;
+    padding: 10px;
+}
+
+.title {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: 2px;
+    border-radius: 6px;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #ccc;
+    color: black;
+}
+
+/** Start of salat time list styles **/
+.salat-name::after {
+    content: ": ";
+}
+
+.salat-name {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.salat-time-list {
+    list-style: none;
+    padding: 0;
+}
+
+.salat-time-list > li {
+    margin-bottom: 10px;
+}
+
+.salat-time-list > li > a.salat-name {
+    display: inline-block;
+    width: 100px;
+}
+
+/** End of salat time list styles **/
+
+/** Start of form styles **/
+.salat-form {
+    margin: 10px 0px;
+}
+
+.inp-salat-time {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 0px;
+}
+
+.inp-salat-time > label {
+    padding-bottom: 4px;
+}
+
+.inp-salat-time > input {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/** End of form styles **/

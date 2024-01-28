@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Salat Times Reminder</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+
+<body>
+    <h2 class="title">Salat Times Reminder</h2>
+
+    <div id="noti-permission" class="hidden">
+        <button id="btn-allow-notification" class="btn btn-primary">Allow
+            Notifications</button>
+    </div>
+
+    <ul id="salat-time-list" class="salat-time-list">
+        <li>
+            <a class="salat-name">Fajr</a>
+            <a id="fajr-time"></a>
+        </li>
+        <li>
+            <a class="salat-name">Dhuhr</a>
+            <a id="dhuhr-time"></a>
+        </li>
+        <li>
+            <a class="salat-name">Asr</a>
+            <a id="asr-time"></a>
+        </li>
+        <li>
+            <a class="salat-name">Maghrib</a>
+            <a id="maghrib-time"></a>
+        </li>
+        <li>
+            <a class="salat-name">Isha</a>
+            <a id="isha-time"></a>
+        </li>
+    </ul>
+
+    <form id="salatForm" class="salat-form hidden">
+        <div class="inp-salat-time">
+            <label for="fajr">Fajr:</label>
+            <input type="time" id="fajr" required>
+        </div>
+        <div class="inp-salat-time">
+            <label for="dhuhr">Dhuhr:</label>
+            <input type="time" id="dhuhr" required>
+        </div>
+        <div class="inp-salat-time">
+            <label for="asr">Asr:</label>
+            <input type="time" id="asr" required>
+        </div>
+        <div class="inp-salat-time">
+            <label for="maghrib">Maghrib:</label>
+            <input type="time" id="maghrib" required>
+        </div>
+        <div class="inp-salat-time">
+            <label for="isha">Isha:</label>
+            <input type="time" id="isha" required>
+        </div>
+        <button type="button" class="btn btn-primary" id="setReminder">Set Reminders</button>
+    </form>
+
+    <button class="btn btn-secondary" id="btn-time-setter">Update
+        Times</button>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
